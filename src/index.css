@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 140 10% 99%;
+    --foreground: 167 18% 25%;
+
+    --card: 140 10% 96%;
+    --card-foreground: 167 18% 25%;
+
+    --popover: 140 10% 96%;
+    --popover-foreground: 167 18% 25%;
+
+    --primary: 167 18% 43%;
+    --primary-foreground: 140 10% 99%;
+
+    --secondary: 134 27% 60%;
+    --secondary-foreground: 167 18% 20%;
+
+    --muted: 90 31% 76%;
+    --muted-foreground: 167 18% 35%;
+
+    --accent: 134 27% 60%;
+    --accent-foreground: 167 18% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 134 20% 80%;
+    --input: 134 20% 90%;
+    --ring: 167 18% 43%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 140 10% 96%;
+    --sidebar-foreground: 167 18% 25%;
+    --sidebar-primary: 167 18% 43%;
+    --sidebar-primary-foreground: 140 10% 99%;
+    --sidebar-accent: 134 27% 60%;
+    --sidebar-accent-foreground: 167 18% 20%;
+    --sidebar-border: 134 20% 80%;
+    --sidebar-ring: 167 18% 43%;
+  }
+
+  .dark {
+    --background: 167 18% 8%;
+    --foreground: 140 10% 95%;
+    --card: 167 18% 12%;
+    --card-foreground: 140 10% 95%;
+    --popover: 167 18% 12%;
+    --popover-foreground: 140 10% 95%;
+    --primary: 134 27% 60%;
+    --primary-foreground: 167 18% 10%;
+    --secondary: 167 18% 25%;
+    --secondary-foreground: 140 10% 95%;
+    --muted: 167 18% 20%;
+    --muted-foreground: 134 20% 60%;
+    --accent: 134 27% 60%;
+    --accent-foreground: 167 18% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 167 18% 20%;
+    --input: 167 18% 15%;
+    --ring: 134 27% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
