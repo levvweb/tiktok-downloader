@@ -7,9 +7,9 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5.4.19-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-**Download TikTok videos and slideshows without watermark - Fast, Free, and Easy!**
+**Download video dan slideshow TikTok tanpa watermark - Cepat, Gratis, dan Mudah!**
 
-[✨ Demo](#-demo) • [🚀 Features](#-features) • [💻 Installation](#-installation) • [📖 Usage](#-usage) • [🛠️ Tech Stack](#-tech-stack)
+[✨ Demo](#-demo) • [🚀 Fitur](#-fitur) • [💻 Instalasi](#-instalasi) • [📖 Cara Pakai](#-cara-pakai) • [🛠️ Teknologi](#-teknologi)
 
 </div>
 
@@ -17,46 +17,46 @@
 
 ## ✨ Demo
 
-A modern, sleek web application that allows you to download TikTok videos, slideshows, and audio files without watermarks in HD quality.
+Aplikasi web modern dan elegan yang memungkinkan Anda mengunduh video TikTok, slideshow, dan file audio tanpa watermark dalam kualitas HD.
 
-**Live Features:**
-- 🎥 Download videos without watermark
-- 🖼️ Download slideshow images individually
-- 🎵 Extract audio from videos
-- 📱 Fully responsive design
-- ⚡ Lightning-fast processing
-- 🌙 Dark mode interface
-
----
-
-## 🚀 Features
-
-### Core Features
-- ✅ **No Watermark Downloads** - Get clean videos without TikTok branding
-- ✅ **HD Quality** - Download videos in the highest quality available
-- ✅ **Slideshow Support** - Download all images from TikTok slideshows
-- ✅ **Audio Extraction** - Save just the audio from any TikTok video
-- ✅ **Batch Downloads** - Download multiple slideshow images at once
-- ✅ **Free Forever** - No subscriptions, no hidden fees
-
-### User Experience
-- 🎨 **Modern UI** - Beautiful, intuitive interface with smooth animations
-- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- ⚡ **Fast Processing** - Quick video processing and downloads
-- 🔗 **Paste & Go** - One-click clipboard paste support
-- 🌐 **No Login Required** - Start downloading immediately
+**Fitur Unggulan:**
+- 🎥 Download video tanpa watermark
+- 🖼️ Download gambar slideshow satu per satu
+- 🎵 Ekstrak audio dari video
+- 📱 Desain responsif penuh
+- ⚡ Proses super cepat
+- 🌙 Interface mode gelap
 
 ---
 
-## 💻 Installation
+## 🚀 Fitur
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18 or higher)
-- [npm](https://www.npmjs.com/) or [bun](https://bun.sh/)
+### Fitur Utama
+- ✅ **Download Tanpa Watermark** - Dapatkan video bersih tanpa logo TikTok
+- ✅ **Kualitas HD** - Download video dalam kualitas tertinggi yang tersedia
+- ✅ **Dukungan Slideshow** - Download semua gambar dari slideshow TikTok
+- ✅ **Ekstraksi Audio** - Simpan hanya audionya dari video TikTok
+- ✅ **Download Batch** - Download beberapa gambar slideshow sekaligus
+- ✅ **Gratis Selamanya** - Tanpa langganan, tanpa biaya tersembunyi
 
-### Quick Start
+### Pengalaman Pengguna
+- 🎨 **UI Modern** - Antarmuka yang indah dan intuitif dengan animasi halus
+- 📱 **Desain Responsif** - Bekerja sempurna di desktop, tablet, dan mobile
+- ⚡ **Proses Cepat** - Pemrosesan dan pengunduhan video yang cepat
+- 🔗 **Paste & Go** - Dukungan paste clipboard satu klik
+- 🌐 **Tanpa Login** - Langsung mulai download tanpa perlu login
 
-1. **Clone the repository**
+---
+
+## 💻 Instalasi
+
+### Prasyarat
+- [Node.js](https://nodejs.org/) (v18 atau lebih tinggi)
+- [npm](https://www.npmjs.com/) atau [bun](https://bun.sh/)
+
+### Mulai Cepat
+
+1. **Clone repository**
    ```bash
    git clone https://github.com/levvweb/tiktok-downloader.git
    cd tiktok-downloader
@@ -65,58 +65,58 @@ A modern, sleek web application that allows you to download TikTok videos, slide
 2. **Install dependencies**
    ```bash
    npm install
-   # or
+   # atau
    bun install
    ```
 
-3. **Start development server**
+3. **Jalankan development server**
    ```bash
    npm run dev
-   # or
+   # atau
    bun run dev
    ```
 
-4. **Open your browser**
+4. **Buka browser**
    ```
-   Navigate to http://localhost:5173
+   Navigasi ke http://localhost:5173
    ```
 
-### Build for Production
+### Build untuk Production
 
 ```bash
 npm run build
-# or
+# atau
 bun run build
 ```
 
-The production-ready files will be in the `dist` folder.
+File siap produksi akan ada di folder `dist`.
 
 ---
 
-## 📖 Usage
+## 📖 Cara Pakai
 
-### How to Download TikTok Videos
+### Cara Download Video TikTok
 
-1. **Copy the TikTok video URL**
-   - Open TikTok app or website
-   - Find the video you want to download
-   - Tap/click on "Share" button
-   - Copy the link
+1. **Salin URL video TikTok**
+   - Buka aplikasi atau website TikTok
+   - Temukan video yang ingin didownload
+   - Tap/klik tombol "Share"
+   - Copy linknya
 
-2. **Paste the URL**
-   - Open TikTok Downloader
-   - Paste the URL in the input field
-   - Or use the clipboard button for one-click paste
+2. **Paste URL**
+   - Buka TikTok Downloader
+   - Paste URL di kolom input
+   - Atau gunakan tombol clipboard untuk paste satu klik
 
 3. **Download**
-   - Click the "Unduh" (Download) button
-   - Choose your preferred format:
-     - **Video Tanpa WM** - Video without watermark
-     - **Dengan WM** - Video with watermark
-     - **Audio** - Audio only (MP3)
-   - For slideshows, click individual images to download
+   - Klik tombol "Unduh" (Download)
+   - Pilih format yang diinginkan:
+     - **Video Tanpa WM** - Video tanpa watermark
+     - **Dengan WM** - Video dengan watermark
+     - **Audio** - Audio saja (MP3)
+   - Untuk slideshow, klik gambar individu untuk download
 
-### Supported URL Formats
+### Format URL yang Didukung
 
 ```
 ✅ https://www.tiktok.com/@username/video/1234567890
@@ -127,119 +127,119 @@ The production-ready files will be in the `dist` folder.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Teknologi
 
 ### Frontend
-- **React 18.3.1** - UI library
-- **TypeScript 5.8.3** - Type-safe JavaScript
-- **Vite 5.4.19** - Build tool and dev server
-- **Tailwind CSS 3.4.17** - Utility-first CSS framework
+- **React 18.3.1** - Library UI
+- **TypeScript 5.8.3** - JavaScript dengan type-safe
+- **Vite 5.4.19** - Build tool dan dev server
+- **Tailwind CSS 3.4.17** - Framework CSS utility-first
 
-### UI Components & Animation
-- **shadcn/ui** - High-quality UI components
-- **Radix UI** - Accessible component primitives
-- **Framer Motion 12.23.26** - Animation library
-- **GSAP 3.14.2** - Professional-grade animation
-- **Lucide React** - Beautiful icon library
+### Komponen UI & Animasi
+- **shadcn/ui** - Komponen UI berkualitas tinggi
+- **Radix UI** - Komponen primitif yang accessible
+- **Framer Motion 12.23.26** - Library animasi
+- **GSAP 3.14.2** - Animasi tingkat profesional
+- **Lucide React** - Library ikon cantik
 
-### Data & State Management
-- **TanStack Query 5.83.0** - Data fetching and caching
+### Manajemen Data & State
+- **TanStack Query 5.83.0** - Data fetching dan caching
 - **Axios 1.13.2** - HTTP client
 - **React Hook Form 7.61.1** - Form handling
-- **Zod 3.25.76** - Schema validation
+- **Zod 3.25.76** - Validasi schema
 
 ### Styling
-- **Tailwind CSS** - Responsive design
-- **CVA (class-variance-authority)** - Component variants
-- **tailwindcss-animate** - Animation utilities
+- **Tailwind CSS** - Desain responsif
+- **CVA (class-variance-authority)** - Varian komponen
+- **tailwindcss-animate** - Utilitas animasi
 
 ---
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```
 tiktok-downloader/
 ├── src/
-│   ├── components/          # React components
-│   │   ├── ui/             # shadcn/ui components
-│   │   ├── Header.tsx      # App header
-│   │   ├── DownloadCard.tsx # Video/slideshow card
+│   ├── components/          # Komponen React
+│   │   ├── ui/             # Komponen shadcn/ui
+│   │   ├── Header.tsx      # Header aplikasi
+│   │   ├── DownloadCard.tsx # Card video/slideshow
 │   │   └── LoadingSpinner.tsx # Loading state
-│   ├── lib/                # Utility libraries
-│   │   ├── tiktok.ts       # TikTok API integration
-│   │   └── utils.ts        # Helper functions
+│   ├── lib/                # Library utilitas
+│   │   ├── tiktok.ts       # Integrasi API TikTok
+│   │   └── utils.ts        # Fungsi helper
 │   ├── hooks/              # Custom React hooks
-│   │   ├── use-toast.ts    # Toast notifications
-│   │   └── use-mobile.tsx  # Mobile detection
-│   ├── pages/              # Page components
-│   │   ├── Index.tsx       # Main page
-│   │   └── NotFound.tsx    # 404 page
-│   ├── App.tsx             # Root component
-│   ├── main.tsx            # App entry point
-│   └── index.css           # Global styles
-├── public/                 # Static assets
-├── index.html              # HTML template
+│   │   ├── use-toast.ts    # Notifikasi toast
+│   │   └── use-mobile.tsx  # Deteksi mobile
+│   ├── pages/              # Komponen halaman
+│   │   ├── Index.tsx       # Halaman utama
+│   │   └── NotFound.tsx    # Halaman 404
+│   ├── App.tsx             # Komponen root
+│   ├── main.tsx            # Entry point aplikasi
+│   └── index.css           # Style global
+├── public/                 # Asset statis
+├── index.html              # Template HTML
 ├── package.json            # Dependencies
-├── tailwind.config.ts      # Tailwind configuration
-├── tsconfig.json           # TypeScript config
-└── vite.config.ts          # Vite configuration
+├── tailwind.config.ts      # Konfigurasi Tailwind
+├── tsconfig.json           # Konfigurasi TypeScript
+└── vite.config.ts          # Konfigurasi Vite
 ```
 
 ---
 
-## 🎨 Features Breakdown
+## 🎨 Rincian Fitur
 
-### Video Downloads
+### Download Video
 
 ```typescript
-// Supports multiple download options
-- Without Watermark (HD)
-- With Watermark
-- Audio Only (MP3)
+// Mendukung beberapa opsi download
+- Tanpa Watermark (HD)
+- Dengan Watermark
+- Audio Saja (MP3)
 ```
 
-### Slideshow Downloads
+### Download Slideshow
 
 ```typescript
-// For TikTok slideshow posts
-- Individual image downloads
-- All images in grid layout
-- One-click download per image
+// Untuk postingan slideshow TikTok
+- Download gambar individual
+- Semua gambar dalam layout grid
+- Download satu klik per gambar
 ```
 
-### URL Validation
+### Validasi URL
 
 ```typescript
-// Automatic URL validation
-- Checks TikTok URL format
-- Provides helpful error messages
-- Paste detection and auto-fill
+// Validasi URL otomatis
+- Cek format URL TikTok
+- Memberikan pesan error yang membantu
+- Deteksi paste dan auto-fill
 ```
 
 ---
 
-## 🔧 Configuration
+## 🔧 Konfigurasi
 
 ### Environment Variables
 
-Create a `.env` file in the root directory (optional):
+Buat file `.env` di root directory (opsional):
 
 ```env
-# No environment variables required for basic usage
-# The app uses public TikTok API endpoints
+# Tidak ada environment variables yang diperlukan untuk penggunaan dasar
+# Aplikasi menggunakan endpoint API TikTok publik
 ```
 
-### Customization
+### Kustomisasi
 
-You can customize the theme by editing `tailwind.config.ts`:
+Anda bisa mengkustomisasi tema dengan mengedit `tailwind.config.ts`:
 
 ```typescript
-// Custom colors, animations, and more
+// Warna kustom, animasi, dan lainnya
 theme: {
   extend: {
     colors: {
       primary: "hsl(var(--primary))",
-      // Add your custom colors
+      // Tambahkan warna kustom Anda
     }
   }
 }
@@ -247,69 +247,69 @@ theme: {
 
 ---
 
-## 🤝 Contributing
+## 🤝 Kontribusi
 
-Contributions are always welcome! Here's how you can help:
+Kontribusi selalu diterima! Berikut cara Anda bisa membantu:
 
-1. **Fork the repository**
-2. **Create a feature branch**
+1. **Fork repository**
+2. **Buat feature branch**
    ```bash
-   git checkout -b feature/amazing-feature
+   git checkout -b feature/fitur-keren
    ```
-3. **Commit your changes**
+3. **Commit perubahan Anda**
    ```bash
-   git commit -m 'Add some amazing feature'
+   git commit -m 'Menambahkan fitur keren'
    ```
-4. **Push to the branch**
+4. **Push ke branch**
    ```bash
-   git push origin feature/amazing-feature
+   git push origin feature/fitur-keren
    ```
-5. **Open a Pull Request**
+5. **Buka Pull Request**
 
-### Development Guidelines
+### Panduan Development
 
-- Follow TypeScript best practices
-- Write meaningful commit messages
-- Keep components modular and reusable
-- Add comments for complex logic
-- Test on multiple devices/browsers
+- Ikuti best practice TypeScript
+- Tulis commit message yang bermakna
+- Jaga komponen tetap modular dan reusable
+- Tambahkan komentar untuk logic yang kompleks
+- Test di berbagai device/browser
 
 ---
 
-## 📝 License
+## 📝 Lisensi
 
-This project is open source and available under the [MIT License](LICENSE).
+Proyek ini adalah open source dan tersedia di bawah [Lisensi MIT](LICENSE).
 
 ---
 
 ## ⚠️ Disclaimer
 
-This tool is for educational purposes only. Please respect TikTok's Terms of Service and content creators' rights. Always:
+Tool ini hanya untuk tujuan edukasi. Harap hormati Ketentuan Layanan TikTok dan hak-hak kreator konten. Selalu:
 
-- Give credit to original creators
-- Don't use downloaded content for commercial purposes without permission
-- Respect copyright and intellectual property rights
-- Use responsibly and ethically
-
----
-
-## 🌟 Support
-
-If you found this project helpful, please give it a ⭐️!
-
-### Issues & Bugs
-
-Found a bug? [Open an issue](https://github.com/levvweb/tiktok-downloader/issues)
-
-### Questions?
-
-Have questions? Feel free to reach out:
-- 📧 Open a [GitHub Discussion](https://github.com/levvweb/tiktok-downloader/discussions)
-- 🐛 Report bugs in [Issues](https://github.com/levvweb/tiktok-downloader/issues)
+- Berikan kredit kepada kreator asli
+- Jangan gunakan konten yang didownload untuk tujuan komersial tanpa izin
+- Hormati hak cipta dan hak kekayaan intelektual
+- Gunakan dengan bertanggung jawab dan etis
 
 ---
 
-## 📊 Stats
+## 🌟 Dukungan
+
+Jika proyek ini membantu Anda, silakan beri ⭐️!
+
+### Issues & Bug
+
+Menemukan bug? [Buka issue](https://github.com/levvweb/tiktok-downloader/issues)
+
+### Pertanyaan?
+
+Ada pertanyaan? Jangan ragu untuk menghubungi:
+- 📧 Buka [GitHub Discussion](https://github.com/levvweb/tiktok-downloader/discussions)
+- 🐛 Laporkan bug di [Issues](https://github.com/levvweb/tiktok-downloader/issues)
+
+---
+
+## 📊 Statistik
 
 ![GitHub stars](https://img.shields.io/github/stars/levvweb/tiktok-downloader?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/levvweb/tiktok-downloader?style=social)
@@ -320,8 +320,8 @@ Have questions? Feel free to reach out:
 
 <div align="center">
 
-**Made with ❤️ by [LevvWeb](https://github.com/levvweb)**
+**Dibuat dengan ❤️ oleh [LevvWeb](https://github.com/levvweb)**
 
-[⬆ Back to Top](#-tiktok-downloader)
+[⬆ Kembali ke Atas](#-tiktok-downloader)
 
 </div>
